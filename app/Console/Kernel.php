@@ -2,7 +2,7 @@
 
 namespace App\Console;
 
-use App\Console\Commands\Kenh14;
+use App\Console\Commands\Afamily;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
@@ -14,7 +14,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        'App\Console\Commands\Kenh14'
+        // Commands\NotiExpireTimeLimit::class,
+        Afamily::class
     ];
 
     /**
