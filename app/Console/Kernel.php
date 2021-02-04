@@ -15,7 +15,7 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         // Commands\NotiExpireTimeLimit::class,
-        Afamily::class
+        'App\Console\Commands\Afamily'
     ];
 
     /**
